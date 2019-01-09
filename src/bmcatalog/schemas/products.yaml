@@ -1,0 +1,26 @@
+swagger: "2.0"
+info:
+  title: Product API
+  description: API description in Markdown.
+  version: 1.0.0
+host: localhost
+paths:
+#  /hello:
+#    get:
+#      operationId: resources.hello.HelloResource.on_get
+#      summary: Testing
+#      produces:
+#        - application/json
+#      responses:
+#        200:
+#          description: OK
+  /products:
+    get:
+      operationId: resources.product.ProductResource.on_get
+      summary: Returns a list of products.
+      description: Optional extended description in Markdown.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK

@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hug = "==2.4.1"
+gunicorn = "==19.9.0"
+sqlalchemy = "*"
+pyjwt = "*"
+"psycopg2" = "*"
+sqlalchemy-utils = "*"
+falcon-openapi = "*"
+falcon-auth = "*"
+aumbry = "*"
+alchemize = "*"
+docopt = "*"
+waitress = "*"
+alembic = "*"
+"jinja2" = "*"
+simplejson = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
